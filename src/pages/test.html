@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Document</title>
+</head>
+
+<style type="text/css">
+  .father {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+  }
+
+  .son {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+    width: 150px;
+    height: 150px;
+    background: red;
+  }
+</style>
+
+<body>
+<div class="father">
+  <div class="son"></div>
+</div>
+
+</body>
+
+<script>
+
+  /**
+   * @param {string} s
+   * @return {number}
+   */
+  var lengthOfLongestSubstring = function (s) {
+
+    let chartArry = Array.from(s);
+    console.log(chartArry);
+
+  };
+  console.log(lengthOfLongestSubstring("abcabcbb"));
+
+
+</script>
+
+</html>
